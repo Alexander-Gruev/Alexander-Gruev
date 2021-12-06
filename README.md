@@ -1,16 +1,22 @@
 ### Hi there 👋
 
-<!--
-**Alexander-Gruev/Alexander-Gruev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+public class HelloGitHub {
+   private String name = "Alexander Gruev";
+   private int age = 21;
+   private String city = "Sofia, Bulgaria";
+  
+   public Set<String> skills() {
+    return Set.of("Web development", "OOP", "Design Patterns",
+    "Communication", "Fast learning", "Attention to detail", "Hard working",
+    "Strong academic background in mathematics", "Fluency in English");
+   }
+   
+   public Set<String> technologies() {
+    return Set.of("Java", "Spring", "MySQL", "Hibernate", "JavaScript");
+   }
+   
+   public String education() {
+    return "Java Web development | SoftUni | 2019-2021, " + 
+    "Bachelor of Business Informatics and Communications | UNWE | 2019 – now";
+   }
+}
