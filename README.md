@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+```java
 public class HelloGitHub {
    private String name = "Alexander Gruev";
    private int age = 21;
@@ -20,3 +21,4 @@ public class HelloGitHub {
     "Bachelor of Business Informatics and Communications | UNWE | 2019 – now";
    }
 }
+```
